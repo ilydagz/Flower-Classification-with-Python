@@ -55,4 +55,16 @@ The model follows a `Sequential` architecture designed for image classification:
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/ilaydagunduz/flower-classification.git](https://github.com/ilaydagunduz/flower-classification.git)
-cd flower-classification
+cd flower-classification 
+```
+### 2. Install Dependencies
+You can install the required libraries using pip:
+
+```bash
+pip install tensorflow numpy streamlit matplotlib
+```
+### 3. Run the Application
+Ensure you have the trained model file (Flower_Recog_Model.keras) in the directory. Then run:
+
+```bash
+streamlit run app.py
